@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>if_CheckCircle_1031542</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Trabaja-con-Nosotros--II" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="002_B" transform="translate(-69.000000, -1527.000000)" fill="#FD8017" fill-rule="nonzero">
+            <g id="if_CheckCircle_1031542" transform="translate(69.000000, 1527.000000)">
+                <path d="M8,0 C3.5815,0 0,3.5815 0,8 C0,12.4185 3.5815,16 8,16 C12.418,16 16,12.418 16,8 C16,3.5815 12.418,0 8,0 Z M8,15 C4.134,15 1,11.866 1,8 C1,4.134 4.134,1 8,1 C11.866,1 15,4.134 15,8 C15,11.866 11.866,15 8,15 Z" id="Shape"></path>
+                <path d="M11.65,5.1965 L6.506,10.2945 L4.3655,8.1965 C4.1685,8.001 3.8485,8.001 3.6515,8.1965 C3.454,8.392 3.454,8.7085 3.6515,8.9035 L6.151,11.353 C6.356,11.5335 6.6625,11.5535 6.865,11.353 L12.3645,5.9035 C12.5615,5.7085 12.5615,5.3915 12.3645,5.1965 C12.167,5.0015 11.8475,5.0015 11.65,5.1965 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
