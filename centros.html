@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="css/libs/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/libs/owl.carousel.min.css"/>
     <link rel="stylesheet" href="css/libs/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="css/libs/selectize.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
     <title>Vitamina</title>
   </head>
-  <body>
+  <body class="centros">
     <main>
       <div class="header">
         <div class="row no-margin">
@@ -57,7 +58,7 @@
               <li><a href="nuestro-sello.html"><span>NUESTRO SELLO</span></a></li>
               <li><a href="como-educamos.html"><span>CÓMO EDUCAMOS</span></a></li>
               <li><a href="futuro.html"><span>FUTURO PROFESIONAL</span></a></li>
-              <li> <a href="centros.html"><span>DÓNDE ESTAMOS</span></a></li>
+              <li class="active"> <a href="centros.html"><span>DÓNDE ESTAMOS</span></a></li>
             </ul>
           </div>
         </div>
@@ -91,91 +92,157 @@
         <div class="greyBox"></div>
         <div class="narrow-container">
           <div class="main-leyend">
-            <h2 class="title__blue">Postulando</h2>
-            <p class="text__grey">Ingresa la información que te solicitamos para que puedas enviarnos tu solicitud.</p>
+            <h2 class="title__blue">Nuestros <span>centros</span></h2>
           </div>
-          <div class="formBox">
-            <form class="box-form" id="form-postula" onsubmit="return valida(this)">
-              <p class="obligatory">Todos los campos son requeridos</p>
-              <div class="row no-margin">
-                <div class="col-xs-12 col-md-6">
-                  <div class="select-form">
-                    <label>Quiero postular a</label>
-                    <select class="selectStyle" id="selectForm">
-                      <option value="educadora" selected="selected">Educadora de Párvulos</option>
-                      <option value="tecnico">Técnica en Párvulos</option>
-                      <option value="manipuladora">Manipuladora de Alimentos</option>
-                      <option value="directora">Directora de Centro</option>
-                      <option value="practica">Práctica Laboral</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="w-100 hide-sm"></div>
-                <div class="w-100 hide-sm"></div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Completa el campo</p>
-                    <p class="helpMsg"></p>
-                    <input class="input-text inputField" type="text" name="nombre" autocomplete="off" placeholder="*" id="nombre"/>
-                    <label for="nombre">Nombres</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Completa el campo</p>
-                    <p class="helpMsg"></p>
-                    <input class="input-text inputField" type="text" name="apellido" autocomplete="off" placeholder="*" id="apellido"/>
-                    <label for="apellido">Apellidos</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Ingresa un número válido +56992292000</p>
-                    <p class="helpMsg">+56992292000</p>
-                    <input class="input-telefono inputField" type="tel" name="telefono" autocomplete="off" value="" placeholder="*" id="telefono"/>
-                    <label for="telefono">Teléfono móvil</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Usa formato correo@electronico.cl</p>
-                    <p class="helpMsg">correo@electronico.cl</p>
-                    <input class="input-email inputField" type="email" name="mail" autocomplete="off" value="" placeholder="*" id="mail"/>
-                    <label for="mail">Correo electrónico</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Completa el campo</p>
-                    <p class="helpMsg"></p>
-                    <input class="input-text inputField" type="text" name="titulo" autocomplete="off" value="" placeholder="*" id="titulo"/>
-                    <label for="titulo">Título Profesional / Académico</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form pdfAdd">
-                    <label class="activeLabel transparent">Adjunta tu Currículo</label>
-                    <label class="inactiveLabel">Adjunta tu Currículo</label>
-                    <input class="input-file inputField" id="curriculum" type="file" name="curriculo" autocomplete="off" accept=".xml, .pdf, .jpg"/>
-                    <label class="fake-label" for="curriculum">
-                      <h6 class="fake-input"></h6>
-                    </label>
-                    <p class="helpMsg">Archivos .pdf, .xml, .jpg</p>
-                    <p class="hide errorMsg">Completa el campo</p>
+          <div class="searchFilterBox">
+            <select class="filterCenter" placeholder="Busca por región o comuna">
+              <option> </option>
+              <option>Cerrillos</option>
+              <option>Ñuñoa</option>
+              <option>La Reina</option>
+              <option>San Bernardo</option>
+              <option>Pedro Aguirre Cerda</option>
+              <option>Las Condes</option>
+              <option>Vitacura</option>
+            </select><a>Ver todos los centros</a><img class="searchCenter" src="./assets/icons/icon-search_orange.svg" alt=""/>
+          </div>
+          <div class="centrosContainer">
+            <div class="row no-margin">
+              <div class="col-12 col-md-4 col-lg-3">
+                <div class="card-centro"><img src="./assets/img/centro1.png"/>
+                  <div class="card-centro_text">
+                    <h3>Cerrillos</h3>
+                    <h5>Mall Plaza Oeste</h5>
+                    <h6>Américo Vespucio Nº 1501</h6>
+                    <h5 class="phone">22 939 8051</h5>
+                    <div class="schedule">
+                      <h5>Lun a Vie: 7:00 - 19:30</h5>
+                      <h5>Sab y Dom: 7:00 - 15:00</h5>
+                    </div>
                   </div>
                 </div>
               </div>
-              <button class="button__orange-round sendPost" type="submit" form="form-postula">Enviar postulación</button>
-              <div class="button__orange-round chargingAni hide">
-                <div class="lds-ring">
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
+              <div class="col-12 col-md-4 col-lg-3">
+                <div class="card-centro"><img src="./assets/img/centro1.png"/>
+                  <div class="card-centro_text">
+                    <h3>Ñuñoa</h3>
+                    <h5>Mall Plaza Oeste</h5>
+                    <h6>Américo Vespucio Nº 1501</h6>
+                    <h5 class="phone">22 939 8051</h5>
+                    <div class="schedule">
+                      <h5>Lun a Vie: 7:00 - 19:30</h5>
+                      <h5>Sab y Dom: 7:00 - 15:00</h5>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <button class="button__green-round exitPost hide"> <span>Enviado con éxito</span></button>
-            </form>
+              <div class="col-12 col-md-4 col-lg-3">
+                <div class="card-centro newCenter"><img src="./assets/img/centro1.png"/>
+                  <div class="card-centro_text">
+                    <h3>La Reina</h3>
+                    <h5>Mall Plaza Oeste</h5>
+                    <h6>Américo Vespucio Nº 1501</h6>
+                    <h5 class="phone">22 939 8051</h5>
+                    <div class="schedule">
+                      <h5>Lun a Vie: 7:00 - 19:30</h5>
+                      <h5>Sab y Dom: 7:00 - 15:00</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 col-lg-3">
+                <div class="card-centro"><img src="./assets/img/centro1.png"/>
+                  <div class="card-centro_text">
+                    <h3>San Bernardo</h3>
+                    <h5>Mall Plaza Oeste</h5>
+                    <h6>Américo Vespucio Nº 1501</h6>
+                    <h5 class="phone">22 939 8051</h5>
+                    <div class="schedule">
+                      <h5>Lun a Vie: 7:00 - 19:30</h5>
+                      <h5>Sab y Dom: 7:00 - 15:00</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 col-lg-3 hide-sm">
+                <div class="card-centro newCenter"><img src="./assets/img/centro1.png"/>
+                  <div class="card-centro_text">
+                    <h3>Las Condes</h3>
+                    <h5>Mall Plaza Oeste</h5>
+                    <h6>Américo Vespucio Nº 1501</h6>
+                    <h5 class="phone">22 939 8051</h5>
+                    <div class="schedule">
+                      <h5>Lun a Vie: 7:00 - 19:30</h5>
+                      <h5>Sab y Dom: 7:00 - 15:00</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 col-lg-3 hide-sm">
+                <div class="card-centro"><img src="./assets/img/centro1.png"/>
+                  <div class="card-centro_text">
+                    <h3>Vitacura</h3>
+                    <h5>Mall Plaza Oeste</h5>
+                    <h6>Américo Vespucio Nº 1501</h6>
+                    <h5 class="phone">22 939 8051</h5>
+                    <div class="schedule">
+                      <h5>Lun a Vie: 7:00 - 19:30</h5>
+                      <h5>Sab y Dom: 7:00 - 15:00</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 col-lg-3 hide-sm">
+                <div class="card-centro"><img src="./assets/img/centro1.png"/>
+                  <div class="card-centro_text">
+                    <h3>La Florida</h3>
+                    <h5>Mall Plaza Oeste</h5>
+                    <h6>Américo Vespucio Nº 1501</h6>
+                    <h5 class="phone">22 939 8051</h5>
+                    <div class="schedule">
+                      <h5>Lun a Vie: 7:00 - 19:30</h5>
+                      <h5>Sab y Dom: 7:00 - 15:00</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 col-lg-3 hide-sm">
+                <div class="card-centro"><img src="./assets/img/centro1.png"/>
+                  <div class="card-centro_text">
+                    <h3>Manquehue</h3>
+                    <h5>Mall Plaza Oeste</h5>
+                    <h6>Américo Vespucio Nº 1501</h6>
+                    <h5 class="phone">22 939 8051</h5>
+                    <div class="schedule">
+                      <h5>Lun a Vie: 7:00 - 19:30</h5>
+                      <h5>Sab y Dom: 7:00 - 15:00</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 hide-lg hide-sm">
+                <div class="card-centro"><img src="./assets/img/centro1.png"/>
+                  <div class="card-centro_text">
+                    <h3>Manquehue</h3>
+                    <h5>Mall Plaza Oeste</h5>
+                    <h6>Américo Vespucio Nº 1501</h6>
+                    <h5 class="phone">22 939 8051</h5>
+                    <div class="schedule">
+                      <h5>Lun a Vie: 7:00 - 19:30</h5>
+                      <h5>Sab y Dom: 7:00 - 15:00</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pagination justify-content-center">
+            <nav>
+              <ul class="pagination pagination-lg">
+                <li class="page-item active"><a class="page-link">1</a></li>
+                <li class="page-item"><a class="page-link">2</a></li>
+              </ul>
+            </nav>
           </div>
         </div>
       </div>
@@ -218,6 +285,7 @@
     <script src="js/libs/jquery-3.3.1.min.js"></script>
     <script src="js/libs/owl.carousel.min.js"></script>
     <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/libs/selectize.min.js"></script>
     <script src="js/funciones.js"></script>
   </body>
 </html>

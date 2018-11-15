@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="14px" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>solid</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Trabaja-con-Nosotros--III" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nuestros-centros-03" transform="translate(-910.000000, -643.000000)" fill="#FD8017" fill-rule="nonzero">
+            <g id="solid" transform="translate(910.000000, 643.000000)">
+                <path d="M20,1.80397906 L20,13.5 C20,13.7761424 19.7761424,14 19.5,14 L0.5,14 C0.22385763,14 0,13.7761424 0,13.5 L0,1.80832565 L9.7423884,7.4330962 C9.8224645,7.4793282 9.9100132,7.500893 9.9962357,7.5001483 C10.0824582,7.500893 10.170007,7.4793282 10.2500831,7.4330962 L20,1.80397906 Z M20,0.64927852 L9.9962357,6.4249545 L0,0.65362511 L0,0.5 C0,0.22385763 0.22385763,0 0.5,0 L19.5,0 C19.7761424,0 20,0.22385763 20,0.5 L20,0.64927852 Z" id="path-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -55,7 +55,7 @@
                     </g>
                   </svg></a></li>
               <li><a href="nuestro-sello.html"><span>NUESTRO SELLO</span></a></li>
-              <li><a href="como-educamos.html"><span>CÓMO EDUCAMOS</span></a></li>
+              <li class="active"><a href="como-educamos.html"><span>CÓMO EDUCAMOS</span></a></li>
               <li><a href="futuro.html"><span>FUTURO PROFESIONAL</span></a></li>
               <li> <a href="centros.html"><span>DÓNDE ESTAMOS</span></a></li>
             </ul>
@@ -91,91 +91,57 @@
         <div class="greyBox"></div>
         <div class="narrow-container">
           <div class="main-leyend">
-            <h2 class="title__blue">Postulando</h2>
-            <p class="text__grey">Ingresa la información que te solicitamos para que puedas enviarnos tu solicitud.</p>
+            <h2 class="title__blue">Cómo <span>educamos</span></h2>
+            <p class="text__grey">En Vitamina buscamos <span>favorecer aprendizajes positivos</span> ofreciendo experiencias para cada etapa y que desafíen a los niños constantemente. <span>Diseñamos nuestro propio Programa Educativo Vitamina</span>, el cual se rige por las bases curriculares del Ministerio de Educación, concretándolo en 5 Mundos que buscan desarrollar el potencial del niño, su autonomía, creatividad, ingenio y relación positiva con el entorno.</p>
           </div>
-          <div class="formBox">
-            <form class="box-form" id="form-postula" onsubmit="return valida(this)">
-              <p class="obligatory">Todos los campos son requeridos</p>
-              <div class="row no-margin">
-                <div class="col-xs-12 col-md-6">
-                  <div class="select-form">
-                    <label>Quiero postular a</label>
-                    <select class="selectStyle" id="selectForm">
-                      <option value="educadora" selected="selected">Educadora de Párvulos</option>
-                      <option value="tecnico">Técnica en Párvulos</option>
-                      <option value="manipuladora">Manipuladora de Alimentos</option>
-                      <option value="directora">Directora de Centro</option>
-                      <option value="practica">Práctica Laboral</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="w-100 hide-sm"></div>
-                <div class="w-100 hide-sm"></div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Completa el campo</p>
-                    <p class="helpMsg"></p>
-                    <input class="input-text inputField" type="text" name="nombre" autocomplete="off" placeholder="*" id="nombre"/>
-                    <label for="nombre">Nombres</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Completa el campo</p>
-                    <p class="helpMsg"></p>
-                    <input class="input-text inputField" type="text" name="apellido" autocomplete="off" placeholder="*" id="apellido"/>
-                    <label for="apellido">Apellidos</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Ingresa un número válido +56992292000</p>
-                    <p class="helpMsg">+56992292000</p>
-                    <input class="input-telefono inputField" type="tel" name="telefono" autocomplete="off" value="" placeholder="*" id="telefono"/>
-                    <label for="telefono">Teléfono móvil</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Usa formato correo@electronico.cl</p>
-                    <p class="helpMsg">correo@electronico.cl</p>
-                    <input class="input-email inputField" type="email" name="mail" autocomplete="off" value="" placeholder="*" id="mail"/>
-                    <label for="mail">Correo electrónico</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Completa el campo</p>
-                    <p class="helpMsg"></p>
-                    <input class="input-text inputField" type="text" name="titulo" autocomplete="off" value="" placeholder="*" id="titulo"/>
-                    <label for="titulo">Título Profesional / Académico</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form pdfAdd">
-                    <label class="activeLabel transparent">Adjunta tu Currículo</label>
-                    <label class="inactiveLabel">Adjunta tu Currículo</label>
-                    <input class="input-file inputField" id="curriculum" type="file" name="curriculo" autocomplete="off" accept=".xml, .pdf, .jpg"/>
-                    <label class="fake-label" for="curriculum">
-                      <h6 class="fake-input"></h6>
-                    </label>
-                    <p class="helpMsg">Archivos .pdf, .xml, .jpg</p>
-                    <p class="hide errorMsg">Completa el campo</p>
-                  </div>
+          <div class="vitaminaGrid">
+            <div class="upRow">
+              <div class="vitaminaGrid_media videoGrid">
+                <div class="reproductor" data-id="Nm4PnDLKKWY"></div>
+              </div>
+              <div class="vitaminaGrid_caption">
+                <p>En espacios que favorecen el juego y la autonomía, los niños construyen su aprendizaje en interacción con otros, guiados por nuestros equipos y acompañados por sus familias.  </p>
+              </div>
+            </div>
+            <div class="bottomRow">
+              <div class="vitaminaGrid_text backgroundContainer">
+                <div class="backgroundPhoto cyan"></div><img src="./assets/img/grid1.png" alt=""/>
+                <h4>Aprendemos</h4>
+                <h4>jugando</h4>
+                <p>Generamos experiencias significativas en torno al JUEGO, registrando evidencia de los procesos de aprendizaje y retroalimentando de forma permanente.</p>
+              </div>
+              <div class="vitaminaGrid_text">
+                <h4>Organizamos</h4>
+                <h4>el tiempo</h4>
+                <p>Trabajamos en una RUTINA diaria, que entrelaza los momentos de cuidado con los períodos de aprendizaje, estableciendo focos diferentes para cada uno de ellos.</p>
+              </div>
+              <div class="vitaminaGrid_text backgroundContainer">
+                <div class="backgroundPhoto orange"></div><img src="./assets/img/grid2.png" alt=""/>
+                <h4>Promovemos</h4>
+                <h4>aprendizajes</h4>
+                <p>Identificamos las características y potencialidades de cada uno de los niños, y los apoyamos oportunamente en su proceso de aprendizaje, atendiendo sus sentimientos y necesidades.</p>
+              </div>
+              <div class="vitaminaGrid_text">
+                <h4>Integramos</h4>
+                <h4>a la familia</h4>
+                <p>Educamos y lo hacemos en conjunto con los padres, lo que favorece el aprendizaje de los niños, entregándoles estabilidad y confianza en sí mismos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="videoSimple-box">
+            <h3 class="title__blue">Espacios que <span>educan</span></h3>
+            <div class="row no-margin">
+              <div class="col-12 col-lg-6 order-lg-1">
+                <div class="videoSimple-box_video">
+                  <div class="reproductor" data-id="qj6VIG-ksTc"></div>
                 </div>
               </div>
-              <button class="button__orange-round sendPost" type="submit" form="form-postula">Enviar postulación</button>
-              <div class="button__orange-round chargingAni hide">
-                <div class="lds-ring">
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
+              <div class="col-12 col-lg-6">
+                <div class="videoSimple-box_text order-lg-0">
+                  <p>La infraestructura y el equipamiento de nuestros centros educativos son elementos diferenciadores. Gracias al trabajo de las distintas áreas expertas, construimos las bases de una <span>infraestructura con estándares de nivel mundial</span> que invita a los niños a <span>jugar y explorar promoviendo su autonomía y desarrollo.</span></p>
                 </div>
               </div>
-              <button class="button__green-round exitPost hide"> <span>Enviado con éxito</span></button>
-            </form>
+            </div>
           </div>
         </div>
       </div>

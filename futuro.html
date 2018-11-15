@@ -56,7 +56,7 @@
                   </svg></a></li>
               <li><a href="nuestro-sello.html"><span>NUESTRO SELLO</span></a></li>
               <li><a href="como-educamos.html"><span>CÓMO EDUCAMOS</span></a></li>
-              <li><a href="futuro.html"><span>FUTURO PROFESIONAL</span></a></li>
+              <li class="active"><a href="futuro.html"><span>FUTURO PROFESIONAL</span></a></li>
               <li> <a href="centros.html"><span>DÓNDE ESTAMOS</span></a></li>
             </ul>
           </div>
@@ -91,91 +91,58 @@
         <div class="greyBox"></div>
         <div class="narrow-container">
           <div class="main-leyend">
-            <h2 class="title__blue">Postulando</h2>
-            <p class="text__grey">Ingresa la información que te solicitamos para que puedas enviarnos tu solicitud.</p>
+            <h2 class="title__blue">Crea tu propio <span>futuro</span></h2>
+            <p class="text__grey">Creemos en los talentos de nuestras personas y reconocemos el buen desempeño con crecimiento y nuevas oportunidades laborales, es por eso que en Vitamina podrás formarte, hacer carrera y demostrar tu potencial, <span>cumpliendo todas tus expectativas de desarrollo profesional.</span></p>
           </div>
-          <div class="formBox">
-            <form class="box-form" id="form-postula" onsubmit="return valida(this)">
-              <p class="obligatory">Todos los campos son requeridos</p>
-              <div class="row no-margin">
-                <div class="col-xs-12 col-md-6">
-                  <div class="select-form">
-                    <label>Quiero postular a</label>
-                    <select class="selectStyle" id="selectForm">
-                      <option value="educadora" selected="selected">Educadora de Párvulos</option>
-                      <option value="tecnico">Técnica en Párvulos</option>
-                      <option value="manipuladora">Manipuladora de Alimentos</option>
-                      <option value="directora">Directora de Centro</option>
-                      <option value="practica">Práctica Laboral</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="w-100 hide-sm"></div>
-                <div class="w-100 hide-sm"></div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Completa el campo</p>
-                    <p class="helpMsg"></p>
-                    <input class="input-text inputField" type="text" name="nombre" autocomplete="off" placeholder="*" id="nombre"/>
-                    <label for="nombre">Nombres</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Completa el campo</p>
-                    <p class="helpMsg"></p>
-                    <input class="input-text inputField" type="text" name="apellido" autocomplete="off" placeholder="*" id="apellido"/>
-                    <label for="apellido">Apellidos</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Ingresa un número válido +56992292000</p>
-                    <p class="helpMsg">+56992292000</p>
-                    <input class="input-telefono inputField" type="tel" name="telefono" autocomplete="off" value="" placeholder="*" id="telefono"/>
-                    <label for="telefono">Teléfono móvil</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Usa formato correo@electronico.cl</p>
-                    <p class="helpMsg">correo@electronico.cl</p>
-                    <input class="input-email inputField" type="email" name="mail" autocomplete="off" value="" placeholder="*" id="mail"/>
-                    <label for="mail">Correo electrónico</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form">
-                    <p class="errorMsg hide">Completa el campo</p>
-                    <p class="helpMsg"></p>
-                    <input class="input-text inputField" type="text" name="titulo" autocomplete="off" value="" placeholder="*" id="titulo"/>
-                    <label for="titulo">Título Profesional / Académico</label>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <div class="input-form pdfAdd">
-                    <label class="activeLabel transparent">Adjunta tu Currículo</label>
-                    <label class="inactiveLabel">Adjunta tu Currículo</label>
-                    <input class="input-file inputField" id="curriculum" type="file" name="curriculo" autocomplete="off" accept=".xml, .pdf, .jpg"/>
-                    <label class="fake-label" for="curriculum">
-                      <h6 class="fake-input"></h6>
-                    </label>
-                    <p class="helpMsg">Archivos .pdf, .xml, .jpg</p>
-                    <p class="hide errorMsg">Completa el campo</p>
-                  </div>
+          <div class="vitaminaGrid">
+            <div class="upRow">
+              <div class="vitaminaGrid_media videoGrid">
+                <div class="reproductor" data-id="Nm4PnDLKKWY"></div>
+              </div>
+              <div class="vitaminaGrid_caption">
+                <p>Uno de nuestros principales compromisos es enriquecer la labor de nuestros equipos educativos con  oportunidades de desarrollo para las profesionales con mayor talento y pasión. Por eso en Vitamina...  </p>
+              </div>
+            </div>
+            <div class="bottomRow">
+              <div class="vitaminaGrid_text backgroundContainer">
+                <div class="backgroundPhoto cyan"></div><img src="./assets/img/grid1.png" alt=""/>
+                <h4>Potenciamos</h4>
+                <h4>tu talento</h4>
+                <p>Tendrás la oportunidad de formarte permanentemente en nuestras capacitaciones, donde te apoyaremos con herramientas teóricas y prácticas que facilitarán tu trabajo.</p>
+              </div>
+              <div class="vitaminaGrid_text">
+                <h4>Guiamos</h4>
+                <h4>tu desarrollo</h4>
+                <p>Te acompañamos a través de evaluaciones y retroalimentación constante, elaborando un plan de trabajo que te permitirá perfeccionar diariamente tu labor. </p>
+              </div>
+              <div class="vitaminaGrid_text backgroundContainer">
+                <div class="backgroundPhoto orange"></div><img src="./assets/img/grid2.png" alt=""/>
+                <h4>Crecer depende</h4>
+                <h4>de ti</h4>
+                <p>Nuestro Plan de Carrera basado en el desempeño, te permitirá  asumir nuevos desafíos y crecer profesionalmente como no lo harías en ningún otro lugar.</p>
+              </div>
+              <div class="vitaminaGrid_text">
+                <h4>La clave</h4>
+                <h4>eres tú</h4>
+                <p>El liderazgo es un talento esencial, por eso buscamos potenciarlo a través de nuestro programa Futura Líder, donde te entregaremos las herramientas para que puedas desempeñarte en un cargo de mayor responsabilidad.</p>
+              </div>
+            </div>
+          </div>
+          <div class="videoSimple-box">
+            <h3 class="title__blue">Yo crecí en <span>Vitamina</span></h3>
+            <div class="row no-margin">
+              <div class="col-12 col-lg-6">
+                <div class="videoSimple-box_text quote">
+                  <p>Vitamina capacita a Educadoras, Técnicos, Manipuladoras y Directoras, con el propósito de que todas tengan la oportunidad de perfeccionarse en lo que hacen y sean las mejores.</p>
+                  <h3>Tamara Castro, Directora Vitamina Dos Oriente, V Región.</h3>
                 </div>
               </div>
-              <button class="button__orange-round sendPost" type="submit" form="form-postula">Enviar postulación</button>
-              <div class="button__orange-round chargingAni hide">
-                <div class="lds-ring">
-                  <div></div>
-                  <div></div>
-                  <div></div>
-                  <div></div>
+              <div class="col-12 col-lg-6">
+                <div class="videoSimple-box_video">
+                  <div class="reproductor" data-id="qj6VIG-ksTc"></div>
                 </div>
               </div>
-              <button class="button__green-round exitPost hide"> <span>Enviado con éxito</span></button>
-            </form>
+            </div>
           </div>
         </div>
       </div>
