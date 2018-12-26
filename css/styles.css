@@ -164,6 +164,23 @@ table {
   .section-box .section-card__text img {
     margin: 1em auto !important;
   }
+  .section-referida .subtitle__grey {
+    padding: 0 10px;
+  }
+  .section-referida .box-referida-paso {
+    -ms-flex-preferred-size: 100% !important;
+        flex-basis: 100% !important;
+  }
+  .section-referida .box-referida-paso:first-of-type {
+    padding: 2em 1em 1em;
+  }
+  .section-referida .box-referida-paso p {
+    padding: 2em 0 !important;
+    font-size: 14px !important;
+  }
+  .section-referida .disclaimer {
+    padding: 0 10px 2em !important;
+  }
   .section-jobs .subtitle__grey {
     padding-bottom: 2em;
   }
@@ -2266,6 +2283,52 @@ table {
 
 .section-testimonies {
   padding: 2em 0;
+}
+
+.section-referida .box-referida {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section-referida .box-referida-paso {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 33.3%;
+          flex: 1 1 33.3%;
+  padding: 1em;
+  text-align: center;
+}
+
+.section-referida .box-referida-paso p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #434343;
+  line-height: 20px;
+  padding: 3em 0;
+}
+
+.section-referida .box-referida-paso p span {
+  font-weight: 600;
+}
+
+.section-referida .disclaimer {
+  color: #434343;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  padding: 0 0 2em;
+}
+
+.section-referida .sendRef {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .formBox {
